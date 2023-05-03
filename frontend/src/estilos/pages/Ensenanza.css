@@ -1,0 +1,19 @@
+.entrenamiento{
+    width: 19%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color:rgba(26, 142, 26, 0.251) ;
+    border-radius: 26px 26px 26px 26px;
+}
+.entrenamiento img{
+    height: 300px;
+    width: 100%;
+    border-radius: 26px 26px 26px 26px;
+}
+.entrenamientos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgba(26, 142, 26, 0.151);
+}
+
+.destacado{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    color: rgba(26, 142, 26, 0.751);
+    font-weight: 400;
+}
+
+h1 {
+    color: rgba(215, 250, 215, 0.851);
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
