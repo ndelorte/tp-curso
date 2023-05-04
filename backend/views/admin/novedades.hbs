@@ -1,5 +1,39 @@
-<h1 style="color: black">Hola soy el administrador</h1>
-<h2>hola soy {{persona}}</h2>
-<div class="btn-group">
-    <a class="btn btn-danger" href="/admin/login/logout">Cerrar Sesion</a>
+<div>
+    <h1 style="color: black">Hola soy el administrador</h1>
+    <h2>hola soy {{persona}}</h2>
+    <div class="btn-group">
+        <a class="btn btn-danger" href="/admin/login/logout">Cerrar Sesion</a>
+    </div>
+    <div>
+        <h3>Listado novedades</h3>
+        <div>
+            <a href="/admin/novedades/agregar" class="btn btn-success">Nuevo</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">Titulo</th>
+                        <th class="txt-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <th scope="row">{{id}}</th>
+                        <td>{{titulo}}</td>
+                        <td class="text-end">
+                            <a href="" class="btn btn-secondary">
+                                <i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                <a href="" class="btn btn-secondary"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
