@@ -3,13 +3,9 @@ import '../estilos/pages/Copa.css'
 const Copa = (props) => {
     return(
         <main class="holder">
-        <h2>Jugá todos los meses la copa del club</h2>
-        <p>Torneos proyeccion tenis organiza la <span class="destacado">"Copa El Prado"</span> todos los meses para las
-            categorias A, B, C e Inicial. La copa se juega durante todo el mes con horarios a convenir entre los
-            jugadores rivales, con sistema de juego de simple eliminacion.</p>
-        <p>El valor de la inscripción es de $4500 y para inscribirte podes contactarnos por cualquiera de nuestras redes
-            o Whatsapp, tenes tiempo hasta el 10 de cada mes para hacerlo</p>
-        <h2>Ultimos campeones</h2>
+
+        
+        <h2 id="TituloCampeones">Ultimos campeones</h2>
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -62,6 +58,12 @@ const Copa = (props) => {
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <h2>Jugá todos los meses la copa del club</h2>
+        <p>Torneos proyeccion tenis organiza la <span class="destacado">"Copa El Prado"</span> todos los meses para las
+            categorias A, B, C e Inicial. La copa se juega durante todo el mes con horarios a convenir entre los
+            jugadores rivales, con sistema de juego de simple eliminacion.</p>
+        <p>El valor de la inscripción es de $4500 y para inscribirte podes contactarnos por cualquiera de nuestras redes
+            o Whatsapp, tenes tiempo hasta el 10 de cada mes para hacerlo</p>
     </main>
     );
 }

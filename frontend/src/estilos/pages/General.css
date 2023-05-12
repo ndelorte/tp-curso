@@ -18,10 +18,9 @@ h2{
 h1 {
     color: rgba(215, 250, 215, 0.851);
     font-size: 50px;
-    font-weight: 100;
     font-style: italic;
-    display: inline;
-    position: relative;
-    bottom: 35px;
-    margin-left: 10px;
+}
+
+h3{
+    font-size: 23px;
 }

@@ -1,4 +1,10 @@
 .carousel, .carousel-inner > .carousel-item > img {
     height: 900px;
     width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  #TituloCampeones {
+    text-align: center;
+    font-size: 40px;
   }
